@@ -76,7 +76,7 @@ echo "<hr>";
 echo "<h4>Funcionários</h4>";
 
 
-$funcionario = new Funcionario("Cleiton", "123.123.123.00", "20", 2005, "coveiro", 1.500);
+$funcionario = new Funcionario("Cleiton", "123.123.123.00", "20", 2005, "coveiro", 1500);
 
 echo "Nome: " . $funcionario->getnome() . " <br>";
 echo "Cpf: " . $funcionario->getcpf() . " <br>";
